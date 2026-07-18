@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adversarial Review"
+  short_description: "Ruthless evidence-based debate reviews"
+  default_prompt: "Use $adversarial-review to put this PR through a ruthless adversarial debate and report the winning verdict."
