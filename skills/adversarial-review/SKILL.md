@@ -26,7 +26,7 @@ Pick 2–4 debaters. Two committed opponents are mandatory; add a specialist onl
 
 - **PR review:** *Prosecution* — this change must not merge; find the defects, regressions, contract breaks, and untested paths that prove it. *Defense* — this change is correct and should merge as-is; justify every decision and show the tests/behavior that prove it. Optional specialist prosecutor for security, data integrity, or performance.
 - **Architectural review:** *Champion* — the proposed architecture is right; argue it from constraints, scale, cost, and failure modes. *Challenger* — propose the strongest concrete alternative (including "do nothing" or "simpler variant") and prove it dominates. Vague "it depends" challenges are forfeits; the Challenger must commit to an alternative.
-- **Feature review:** *Advocate* — build/ship it; argue from user evidence, portfolio data, and revenue mechanics. *Executioner* — kill it; argue opportunity cost, existing-feature overlap, and weak demand evidence. Optional *Simplifier* — same outcome at a fraction of the scope; must specify the exact smaller cut.
+- **Feature review:** *Advocate* — build/ship it; argue from user evidence, product analytics, and revenue mechanics. *Executioner* — kill it; argue opportunity cost, existing-feature overlap, and weak demand evidence. Optional *Simplifier* — same outcome at a fraction of the scope; must specify the exact smaller cut.
 
 ## Evidence Hierarchy
 
